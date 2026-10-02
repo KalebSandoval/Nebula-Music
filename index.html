@@ -6,43 +6,62 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <nav>
-        <a class="logo">
-            <img src="imgs/nebula-03.png" alt="Logo Nébula Music">
-        </a>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">Acerca de nosotros</a></li>
-            <li><a href="iniciar-sesion.html">Iniciar Sesión</a></li>
-            <li><a href="registro.html">Registro</a></li>
-        </ul>
-    </nav>
 
-    <header class="principal">
-        <img src="imgs/cover.jpg" alt="Cover Nébula, a series of albums on outer space">
-        <h1>Tu música en la nube y en tu espacio.</h1>
-        <main>
-            <h2>¡Enterate de todo!</h2>
-            <section class="news">
-                <h2>Novedades</h2>
-                <article>
-                    <h3>Taylor lanza canción para Toy Story</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aperiam autem cum delectus dolor dolore dolorem error explicabo provident quam reiciendis, ut vero. Delectus fuga illum non quos temporibus.</p>
-                </article>
-                <article>
-                    <h3>Shakira manda a una imitadora al mundial</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, corporis iusto libero recusandae reiciendis rerum velit voluptate? Accusantium deserunt dolor exercitationem in, incidunt, ipsam non pariatur praesentium saepe sapiente similique!</p>
-                </article>
-                <article>
-                    <h4>Harry Syles se resbala al segundo concierto en la CDMX</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium architecto dolorem eum illum, ipsum, maxime nostrum odit quas, tempora vel voluptate? Eligendi exercitationem ipsum non officia porro quam saepe.</p>
-                </article>
-            </section>
+<nav>
+    <a class="logo" href="index.html">
+        <img src="imgs/nebula-03.png" alt="Logo Nébula Music">
+    </a>
 
-            <footer>
-                <p>Copyright Nébula 2026.</p>
-            </footer>
-        </main>
-    </header>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="iniciar-sesion.html">Iniciar Sesión</a></li>
+        <li><a href="registro.html">Registrarse</a></li>
+    </ul>
+</nav>
+
+<header class="principal">
+    <img src="imgs/cover.jpg" alt="Cover Nébula Music">
+    <h1>Tu música en la nube <span>y en tu espacio.</span></h1>
+</header>
+
+<main>
+    <section id="news">
+        <article>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRETRqDA4YnHL5jVJm16XRoTDYLEh_5AmwfZ5GDRlooiw&s=10" alt="The Life of a Showgirl">
+            <div class="content">
+                <h3>Taylor Swift en su nueva era</h3>
+                <p>El nuevo disco de Taylor "The Life of a Showgirl" saldrá a la venta el 3 de octubre en todas las plataformas digitales.</p>
+            </div>
+        </article>
+
+        <article>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyIEanbeXVfl_MvCafe8c1bLxGuElUslMqaV1tquS9ng&s=10" alt="Oasis">
+            <div class="content">
+                <h3>Oasis: El Reencuentro</h3>
+                <p>Los hermanos Liam y Noel Gallagher anunciaron su regreso a los escenarios con un show histórico para su gira mundial.</p>
+            </div>
+        </article>
+
+        <article>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm55K7pjUoXaUtWahP_BHjs2RrBk4du4eur3jjBLbK3A&s" alt="Tributo a Marea">
+            <div class="content">
+                <h3>Tributo a Marea</h3>
+                <p>La banda "Los Reztos" ofreció un espectacular tributo con lleno total en Ciudad Obregón el pasado fin de semana.</p>
+            </div>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright © Nébula Music 2026. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
